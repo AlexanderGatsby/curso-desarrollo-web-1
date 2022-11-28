@@ -47,44 +47,33 @@ a.active, a:hover{
     padding-bottom: 0px;
 }
 
-.infografia{    
+.selectDir{
     display: flex;
 }
 
-.videoInfografia{
+.dir{
     flex: 1;
 }
 
-.infoInfografia{
-    flex: 1;
-    text-align: justify;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-.pregunta{
-    margin-top: 40%;
-}
-
-.respuesta{
-    margin-top: 3%;
-}
-
-.titulo{
-    text-align: center;
+.map{
+    height: 30em;
     width: 100%;
-    margin-top: 2em;
 }
 
-.tituloLista{
-    padding-left: 2em;
-    padding-right: 2em;
+#reservation{
+    width: 100%;
 }
 
-.listaValores{
-    list-style-type: georgian;
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
-
 
 
 footer{
@@ -96,6 +85,3 @@ footer{
 footer p, h6 {
     color: white;
 }
-
-
-

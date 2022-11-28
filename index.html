@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,72 +13,59 @@
         <nav>
             <ul>
                 <li> 
-                    <a class= "active" href="./index.html">
-                        <h2>Inicio</h2>
-                    </a>
+                    <a class= "active" href="./index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="./menu.html">
-                        <h2>Men&uacute;</h2>
-                    </a>
+                    <a href="./menu.html">Men&uacute;</a>
                 </li>
                 <li>
-                    <a href="./index.html">
-                        <h2>Logo</h2>
-                    </a>
+                    <a id = "logo" href="./index.html">Logo</a>
                 </li>
                 <li>
-                    <a href="./reservar.html">
-                        <h2>Reservar</h2>
-                    </a>
+                    <a href="./reservar.html">Reservar</a>
                 </li>
                 <li>
-                    <a href="./contacto.html">
-                        <h2>
-                            Contacto
-                        </h2>
-                    </a>
+                    <a href="./contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
 
-        <section>
-            <h1>¿Qui&eacute;nes somos?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis fugiat molestiae consequuntur! Et, aspernatur delectus</p>
+        <section class = "infografia">
 
-            <img src="./alexander.png" alt="Video en primera persona de la experiencia de un cliente en nuestro restaurant">
+            
+            
+            <video class = "videoInfografia" src="./youtube/vaca_direccional.mp4" alt="Video en primera persona de la experiencia de un cliente en nuestro restaurant" controls></video>
+            
+
+            <div class = "infoInfografia">
+
+                <h1 class = "pregunta">¿Qui&eacute;nes somos?</h1>
+                <p class = "respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis fugiat molestiae consequuntur! Et, aspernatur delectus asdasdqwoiqoiqo ia jsdioajsiodj oqwj oqjwdioqjwioq djioqwjd aojsdioqjwd qowidjq wdoqijwdojq owdji oi </p>
+
+            </div>           
             
         </section>
-        <section>
-            <h1>Nuestro sabor</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis fugiat molestiae consequuntur! Et, aspernatur delectus</p>
+        <section class = "infografia">
 
-            <img src="./alexander.png" alt="Video de nuestros platillos preferidos">
+            <div class = "infoInfografia">
+                <h1 class = "pregunta">Nuestro sabor</h1>
+                <p class="respuesta"  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis fugiat molestiae consequuntur! Et, aspernatur delectus</p>
+
+            </div>
+            <video class="videoInfografia" src="./youtube/vaca_direccional.mp4" alt="Video de nuestros platillos preferidos" controls></video>
 
         </section>
         <section>
-            <h1>Nuestra visión</h1>
-            <h4>
+            <h1 class="titulo">Nuestra visión</h1>
+            <h4 class="tituloLista">
                 Establecer nuestra marca como la preferida por los amantes de la gastronom&iacute;a poblana, a trav&eacute;s de nuestros valores:
             </h4>
-            <ol>
-                <li>
-                    <h5>
-                        Respeto a las tradiciones y costumbres en la comida
-                    </h5>
-                </li>
-                <li>
-                    <h5>
-                        Altos est&aacute;ndares de calidad en los elementos elegidos para preparar cada platillo
-                    </h5>
-                </li>
-                <li>
-                    <h5>
-                        Apoyar a la preservaci&oacute;n de la cocina regional
-                    </h5>
-                </li>
+            <ol class="listaValores">
+                <li>Respeto a las tradiciones y costumbres en la comida</li>
+                <li>Altos est&aacute;ndares de calidad en los elementos elegidos para preparar cada platillo</li>
+                <li>Apoyar a la preservaci&oacute;n de la cocina regional</li>
             </ol>
 
         </section>
